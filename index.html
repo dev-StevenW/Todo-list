@@ -10,10 +10,17 @@
   <body>
     <h1>Todo App</h1>
     <div class="content" id="content">
-      <button id="newTodo">Create new task</button>
-      <button id="newProject">Create new project</button>
+      <div id="projectSelector" class="project-selector"></div>
+      <div class="control-panel">
+        <button id="newTodo">New task</button>
+        <button id="newProject">New project</button>
+        <button id="viewAll">All tasks</button>
+        <button id="sortByPriority">Sort tasks</button>
+        <button id="viewCompleted">Completed Tasks</button>
+      </div>
       <div id="projectWrap" class="project-wrap"></div>
     </div>
-    <script src="/src/index.js"></script>
+
+    <script src="bundle.js"></script>
   </body>
 </html>
